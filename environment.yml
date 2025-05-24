@@ -4,8 +4,10 @@ channels:
   - pytorch
   - conda-forge
   - defaults
+# brew install --cask cmake
 dependencies:
   - python=3.11
-  - ipython=7.34.0
   - pip:
       - rpy2==3.5.17
+      - ipython=7.34.0
+      - ipykernel==6.5.0
