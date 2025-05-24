@@ -6,8 +6,6 @@ channels:
   - defaults
 dependencies:
   - python=3.11
-  - ipykernel=6.29.5=pyh57ce528_0
-  - ipython=9.2.0=pyhfb0248b_0
-  - ipython_pygments_lexers=1.1.1=pyhd8ed1ab_0
+  - ipython=7.34.0
   - pip:
       - rpy2==3.5.17
